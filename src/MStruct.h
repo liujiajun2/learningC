@@ -2,8 +2,8 @@
 // Created by 倾城一世 on 2019/8/27.
 //
 
-#ifndef LEARNING_MYSTRUCT_H
-#define LEARNING_MYSTRUCT_H
+#ifndef LEARNING_MSTRUCT_H
+#define LEARNING_MSTRUCT_H
 #define LIMIT 40
 struct Book{
     char title[LIMIT];
@@ -63,4 +63,4 @@ void testFunc();
 
 double sum(const struct Funds * money);
 
-#endif //LEARNING_MYSTRUCT_H
+#endif //LEARNING_MSTRUCT_H

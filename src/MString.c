@@ -23,3 +23,26 @@ char * s_gets(char * s, int n){
 
     return ret_val;
 }
+
+void testString(){
+
+    puts("gets func \n");
+
+    char name[20];
+    gets(name);
+
+    printf("name = %s \n",name);
+
+    puts("fget func \n");
+
+    char words[10];
+    while (fgets(words,10,stdin) != NULL && words[0] != '\n'){
+        fputs(words,stdout);
+    }
+
+//    puts("gets_s func \n");
+//    char tmp[10];
+//    while (gets_s(tmp,10) != NULL) {
+//        puts(tmp);
+//    }
+}

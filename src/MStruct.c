@@ -2,8 +2,8 @@
 // Created by 倾城一世 on 2019/8/27.
 //
 #include <stdio.h>
-#include "myString.h"
-#include "myStruct.h"
+#include "MString.h"
+#include "MStruct.h"
 
 void testStruct(){
     
